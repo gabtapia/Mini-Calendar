@@ -14,8 +14,11 @@ body {
 	flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #fffdff;
     position: absolute;
     top: 50%;
 	left: 50%;
     transform: translate(-50%, -50%);
+    color: #343334;
+    padding: .5rem 3.4rem .5rem 3rem;
 }
