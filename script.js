@@ -15,5 +15,7 @@ setInterval(() => {
 
     let day = date.getDate();
     document.querySelector('.day').innerHTML = day;
-    console.log(day)
+
+    let year = date.getFullYear();
+    document.querySelector('.year').innerHTML = year;
 })
