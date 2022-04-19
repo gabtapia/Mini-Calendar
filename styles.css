@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    overflow: hidden;
+}
+
 img {
     filter: blur(5px);
     width: 100vw;
@@ -21,5 +25,28 @@ img {
 	left: 50%;
     transform: translate(-50%, -50%);
     color: #343334;
-    padding: .5rem 3.4rem .5rem 3rem;
+    border-radius: 10px;
+    box-shadow: -5px 3px 15px 4px rgba(0,0,0,0.11), 
+    3px 3px 15px 4px rgba(0,0,0,0.22);
+}
+
+.calendar .month {
+    padding: 0 3.4rem 0 3rem;
+    background-color: #ff6334;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fffdff;
+}
+
+.calendar .day {
+	font-size: 4em;
+	margin: -15px;
+}
+
+.calendar .week-day {
+    margin-top: 10px;
+}
+
+.calendar .year {
+    margin-bottom: 15px;
 }
