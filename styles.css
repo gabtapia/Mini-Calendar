@@ -5,8 +5,12 @@
 }
 
 body {
-    background-image: url(batman.jpg);
+    background-image: url(fundo.png);
     background-size: cover;
+}
+
+img {
+    filter: blur(15px);
 }
 
 .calendar {
