@@ -12,5 +12,8 @@ setInterval(() => {
     let wd = date.getDay();
     let weekDay = weekdayNames[wd];
 	document.querySelector('.week-day').innerHTML = weekDay;
+
+    let day = date.getDate();
+    document.querySelector('.day').innerHTML = day;
+    console.log(day)
 })
-console.log(day)
