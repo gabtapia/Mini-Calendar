@@ -41,6 +41,7 @@ img {
 .calendar .day {
 	font-size: 4em;
 	margin: -15px;
+    font-weight: 500;
 }
 
 .calendar .week-day {
