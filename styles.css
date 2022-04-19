@@ -4,11 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-image: url(fundo.png);
-    background-size: cover;
-}
-
 img {
     filter: blur(15px);
 }
