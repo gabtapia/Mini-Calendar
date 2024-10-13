@@ -1,6 +1,6 @@
-setInterval(() => {
+gsetInterval(() => {
     const monthNames = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
-    "Julho", "Agosto", "Setembro", "Outobro", "Novembro", "Dezembro"
+    "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
     ];
     const weekdayNames = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
     let date = new Date();
